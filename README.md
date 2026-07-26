@@ -6,12 +6,10 @@ Proyek ini menganalisis ulasan pengguna aplikasi **Mobile JKN** (BPJS Kesehatan)
 
 ## 👥 Tim
 
-| Nama | NPM |
-|------|-----|
-| Fariz Naufal Gustoro | 2306164405 |
-| Surya Winaldi Yakin | 2306164443 |
-| Alif Ramdhani Izharulhaq | 2306262434 |
-| Mohammad Aqsha D. | 2306226201 |
+- Fariz Naufal Gustoro
+- Surya Winaldi Yakin
+- Alif Ramdhani Izharulhaq
+- Mohammad Aqsha Dwinovryan
 
 ## 📋 Ringkasan Proyek
 
@@ -29,18 +27,8 @@ Kedua hasil tersebut kemudian diintegrasikan untuk melihat distribusi sentimen p
 ```
 .
 ├── README.md
-└── JKN_Sentimen_TopicModelling_Merged.ipynb   # Notebook utama (satu pipeline end-to-end)
+└── Mobile JKN Sentiment Analysis & Topic Modelling.ipynb   # Notebook utama (satu pipeline end-to-end)
 ```
-
-Notebook utama dibagi menjadi tiga bagian:
-
-| Bagian | Isi |
-|---|---|
-| **I — Preprocessing & Topic Modelling** | Scraping data, EDA, pelabelan sentimen (LLM), Cohen's Kappa, preprocessing teks, BERTopic |
-| **II — Modelling Sentimen** | Split data, Focal Loss, fine-tuning 4 model Transformer, error analysis, perbandingan model |
-| **III — Integrasi Akhir** | Analisis sentimen per topik, kesimpulan & rekomendasi |
-
-> Notebook ini merupakan penggabungan dari dua notebook kerja yang sebelumnya dibuat terpisah. Beberapa inkonsistensi definisi variabel antar kedua notebook asli (mis. sumber data yang tidak tersambung, variabel yang dipanggil sebelum didefinisikan) telah diperbaiki dan didokumentasikan langsung di dalam notebook pada blok **"🔧 Catatan Perbaikan"**.
 
 ## 🗂️ Dataset
 
