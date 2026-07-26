@@ -57,7 +57,7 @@ Kedua hasil tersebut kemudian diintegrasikan untuk melihat distribusi sentimen p
 
 ## 🚀 Cara Menjalankan
 
-1. Buka `JKN_Sentimen_TopicModelling_Merged.ipynb` di Google Colab (disarankan) atau Jupyter dengan GPU aktif (T4/A100).
+1. Buka `Mobile JKN Sentiment Analysis & Topic Modelling.ipynb` di Google Colab (disarankan) atau Jupyter dengan GPU aktif (T4/A100).
 2. Jalankan sel-sel secara berurutan dari atas ke bawah, dimulai dari **Setup Lingkungan Kerja**.
 3. Jika Anda sudah memiliki data hasil scraping/anotasi, lewati proses scraping dan langsung muat data pada bagian **"Memuat Data Hasil Anotasi LLM"**.
 4. Bagian II (Modelling Sentimen) memerlukan GPU dan waktu komputasi yang cukup besar (training 4 model Transformer × 5 epoch).
